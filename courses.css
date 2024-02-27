@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap');
+
+body {
+    background-color: #cbbec3;
+    padding: 20px;
+    font-family: 'Georgia', sans-serif;
+
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    margin: 50px auto 0;
+    border: 1px solid #3677cb;
+}
+
+input[type="number"],
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #3677cb;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #1e2f46;
+    color: #6c2626;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2a568f;
+    
+}
+
+#result {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.cadre1 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    padding-left: 20px;
+    padding: auto;
+    border: 1px solid #20426e;
+    float: left;
+}
+
+.tableau {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    margin:10px;
+    border: 1px solid #63717f;
+    float: left;
+    width: 20%; 
+    margin-left: 5%; 
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cadre1 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.colonne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
