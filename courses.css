@@ -110,8 +110,7 @@ button[type="submit"]:hover {
     width: 70%;
 }
 
-
-  .row {
+.row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -120,6 +119,7 @@ button[type="submit"]:hover {
     margin-right: calc(-0.5 * var(--bs-gutter-x));
     margin-left: calc(-0.5 * var(--bs-gutter-x));
   }
+
   .row > * {
     flex-shrink: 0;
     width: 100%;
@@ -128,3 +128,5 @@ button[type="submit"]:hover {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-top: var(--bs-gutter-y);
   }
+
+  
